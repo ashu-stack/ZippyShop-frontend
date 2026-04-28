@@ -1,0 +1,41 @@
+h2{
+    color: whitesmoke;
+    text-align: center;
+    font-style: oblique;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 50%;
+    margin-top: 50px;
+    background-color: rgb(121, 115, 115,0.5);
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+label{
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+p{
+    margin: 10px;
+    color: whitesmoke;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin-top: 30px;
+}
+
+button{
+    margin-top: 10px;
+}

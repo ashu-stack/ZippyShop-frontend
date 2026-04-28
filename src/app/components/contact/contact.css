@@ -1,0 +1,21 @@
+img{
+    width: 600px;
+    height: 500px;
+}
+
+div{
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+}
+
+.info h2{
+    color: whitesmoke;
+}
+.info{
+    border-radius: 10px;
+    background-color: rgb(23, 11, 113,0.5);
+    padding: 30px;
+}
