@@ -3,7 +3,7 @@ import { LoginService } from '../../services/login-service';
 
 @Component({
   selector: 'app-login-component',
-  imports: [],
+  imports: [LoginService],
   templateUrl: './login-component.html',
   styleUrl: './login-component.css',
 })
