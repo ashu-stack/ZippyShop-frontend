@@ -2,7 +2,7 @@
 <div class = "container">
     <h2>Signup</h2>
     <div>
-        <form action="">
+        <form [formGroup] = "signUpForm" (ngSummit) = "signup()">
             <label for="Username"> Username : </label>
             <input type="text" for="Username" name = "Username"> <br>
 

@@ -9,9 +9,11 @@ import { Home } from './components/home/home';
 import { Category } from './components/category/category';
 import { About } from './components/about/about';
 import { Contact } from './components/contact/contact';
+
+import {ReactiveFormsModule } from '@angular/forms'
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Navbar,Counter,LoginComponent,SignupComponent,Category,About,Contact],
+  imports: [RouterOutlet,ReactiveFormsModule, Header, Navbar,Counter,LoginComponent,SignupComponent,Category,About,Contact],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
