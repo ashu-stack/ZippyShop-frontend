@@ -1,0 +1,29 @@
+.course-title{
+   text-align: center;
+}
+
+.course-description{
+    text-align: center;
+}
+
+.course-card{
+    height: 100px;
+    width: 400px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 20px;
+}
+
+.course{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.course-card.beginner{
+    background: lightslategray;
+}
+

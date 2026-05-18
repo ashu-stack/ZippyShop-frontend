@@ -15,7 +15,7 @@ export class Counter {
   }
 
   decrement(){
-     this.counterVal.update(val => val-1);
+     this.counterVal.update(val => val > 0 ? val - 1 : 0);
   }
 
   reset(){

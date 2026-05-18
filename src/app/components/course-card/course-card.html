@@ -1,0 +1,17 @@
+<div class = "courses">
+
+    
+<div [ngClass]= "setCardClass()">
+
+    <div class = "course-title">
+       {{ course.name }}
+    </div>
+
+    <div class = "course-description">
+        {{ course.description}}
+    </div>
+
+    <button (click)="onViewCourse()">View Course</button>
+</div>
+
+</div>

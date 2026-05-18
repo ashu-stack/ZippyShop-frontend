@@ -5,9 +5,9 @@ html, body {
 }
 
 body{
-    background-image: url(assets/icons/zippy-background2.jpg);
+     background-image: url(assets/icons/zippy-background2.jpg); 
     
-    background-size: cover;        /* fills entire screen */
+    background-size: auto;        /* fills entire screen */
   background-position: center;   /* keeps image centered */
   background-repeat: no-repeat;  /* prevents tiling */
    

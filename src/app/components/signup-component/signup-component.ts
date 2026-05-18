@@ -15,7 +15,7 @@ import{ReactiveFormsModule} from '@angular/forms'
 })
 export class SignupComponent {
 
-  private signUpForm !: FormGroup
+   signUpForm !: FormGroup
 
   constructor(private formBuilder : FormBuilder, private http : HttpClient,
      private router: Router){}

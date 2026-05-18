@@ -34,7 +34,21 @@ img:hover{
 .container div:hover{
     
     background-color: black;
+    
+}
+.cat-btn{
+    background-color: cadetblue;
+    width: 150px;
+    height : 50px;
+    border-radius: 10px;
+
+}
+
+.cat-btn:hover{
     cursor: pointer;
+    color: whitesmoke;
+    background-color: blue;
+    
 }
 
 
