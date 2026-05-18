@@ -1,12 +1,12 @@
 
 <div class = "container">
     <img src="../../../assets/snacks.jpg" alt="alternate logo">
-    <h2>{{product.name}}</h2>
-
-    <h4>{{product.price}}</h4>
-
-    <h4>{{product.description}}</h4>
-    <app-counter></app-counter>
+    <div class="prod-container">
+        <h2>{{product.name  }}  </h2>
+        <h2>    Rs. {{product.price}}</h2>
+    </div>
+    <h3>{{product.description}}</h3>
+    <app-counter class="counter"></app-counter>
     <button>Add to Cart</button>
 
 

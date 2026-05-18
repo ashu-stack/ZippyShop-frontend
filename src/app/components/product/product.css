@@ -1,6 +1,7 @@
 img{
-    height: 70px;
-    width: 70px
+    height: 150px;
+    width: 190px
+    
 }
 
 .container{
@@ -22,6 +23,11 @@ h2{
     color: whitesmoke;
 }
 
+h3{
+    color: whitesmoke;
+    margin-top: 15px;
+}
+
 h4{
     color:whitesmoke;
 }
@@ -33,6 +39,7 @@ h4{
 
 button{
     background-color: cadetblue;
+    margin-top: 10px;
     width: 150px;
     height : 50px;
     border-radius: 10px;
@@ -44,4 +51,15 @@ button:hover{
     color: whitesmoke;
     background-color: blue;
     
+}
+
+.counter{
+    margin-top: 10px;
+}
+
+
+.prod-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
