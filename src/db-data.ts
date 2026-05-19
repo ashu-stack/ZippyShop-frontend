@@ -69,49 +69,49 @@ export const PRODUCTS : any = [
 
     {
         id : 4,
-        name: "Aloo Bhujia",
-        price: 200,
+        name: "Bourbon",
+        price: 20,
         available: true,
         stock: 300,
         category: "Snacks",
-        description: "Best snack"
+        description: "Chocolate cream biscuits"
     },
 
     {
         id : 5,
-        name: "Nescafe Cold coffee",
-        price: 40,
+        name: "Sprite",
+        price: 20,
         available: true,
         stock: 300,
         category: "Beverages",
-        description: "Best beverage"
+        description: "Refreshing drink"
     },
 
 
     {
         id : 6,
-        name: "Classmate Notebook",
-        price: 35,
+        name: "Parker pen",
+        price: 150,
         available: true,
         stock: 300,
         category: "Stationery",
-        description: "300 page notebook single-line ruled"
+        description: "Top quality roller ball pen"
     },
 
 
     {
         id : 7,
-        name: "Aloo Bhujia",
-        price: 200,
+        name: "Goodday biscuits",
+        price: 10,
         available: true,
         stock: 300,
         category: "Snacks",
-        description: "Best snack"
+        description: "Butter cookies"
     },
 
     {
         id : 8,
-        name: "Nescafe Cold coffee",
+        name: "Diet Coke",
         price: 40,
         available: true,
         stock: 300,
@@ -122,7 +122,7 @@ export const PRODUCTS : any = [
 
     {
         id : 9,
-        name: "Classmate Notebook",
+        name: "Trimax",
         price: 35,
         available: true,
         stock: 300,

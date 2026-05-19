@@ -2,7 +2,10 @@
 
 
     @for(prod of products; track prod.id ){
-        <app-product [product] = prod></app-product>
+        @if(prod.category == 'Stationery'){
+            <app-product [product] = prod></app-product>
+        }
+        
     }
     
 </div>
