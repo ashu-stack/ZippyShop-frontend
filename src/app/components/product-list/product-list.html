@@ -1,11 +1,12 @@
 <div class="container">
 
 
-    @for(prod of products; track prod.id ){
-        @if(prod.category == 'Stationery'){
-            <app-product [product] = prod></app-product>
-        }
-        
+    @if(product$ | async; as products){
+
+    @for(prod of products; track $index){
+        <app-product [product]="prod"></app-product>
     }
+
+}
     
 </div>

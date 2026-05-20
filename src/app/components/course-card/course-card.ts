@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Course } from '../../../courses';
-import { COURSES } from '../../../db-data';
+//import { COURSES } from '../../../db-data';
 
 @Component({
   selector: 'app-course-card',

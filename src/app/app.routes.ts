@@ -51,7 +51,7 @@ export const routes: Routes = [
 },
 
 {
-    path: 'products',
+    path: 'products/:category',
     component: ProductList
 }
 

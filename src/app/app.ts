@@ -10,7 +10,7 @@ import { Category } from './components/category/category';
 import { About } from './components/about/about';
 import { Contact } from './components/contact/contact';
 import {CourseCard} from './components/course-card/course-card'
-import { COURSES } from '../db-data';
+//import { COURSES } from '../db-data';
 
 import {ReactiveFormsModule } from '@angular/forms'
 import { Course } from '../courses';
@@ -24,12 +24,12 @@ export class App {
 
   protected readonly title = signal('Options');
    
-  courses = COURSES;
+  // courses = COURSES;
   
-  first = COURSES[0]
+  // first = COURSES[0]
 
-  second = COURSES[1]
+  // second = COURSES[1]
 
-  third = COURSES[2]
+  // third = COURSES[2]
   
 }
