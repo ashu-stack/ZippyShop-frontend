@@ -3,6 +3,7 @@ import { Category } from './components/category/category';
 import { About } from './components/about/about';
 import { Contact } from './components/contact/contact';
 import { ProductList } from './components/product-list/product-list';
+import {Cart} from './components/cart/cart';
 
 export const routes: Routes = [
     {
@@ -53,6 +54,11 @@ export const routes: Routes = [
 {
     path: 'products/:category',
     component: ProductList
+},
+
+{
+    path:'cart',
+    component: Cart
 }
 
 

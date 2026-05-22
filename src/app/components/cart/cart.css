@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin: 10px;
+    
+    background-color: rgb(85, 84, 89,0.5);
+}
+
+.amt-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.order-btn{
+     height: 50px;
+    width: 170px;
+
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+
+.order-btn:hover{
+    
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+
+.place-order{
+    display: flex;
+    justify-content: center;
+}

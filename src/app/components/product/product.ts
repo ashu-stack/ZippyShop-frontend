@@ -14,4 +14,6 @@ export class Product {
   @Input()
   product !: Products
 
+  
+
 }

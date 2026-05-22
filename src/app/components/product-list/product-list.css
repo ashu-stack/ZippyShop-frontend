@@ -4,3 +4,23 @@
     grid-template-columns: 1fr 1fr 1fr ;
 
 }
+
+.view-btn{
+    height: 50px;
+    width: 170px;
+
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+
+.view-btn:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

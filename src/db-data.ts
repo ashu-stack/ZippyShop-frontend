@@ -34,101 +34,101 @@ import { Category } from "./app/components/category/category";
 // ]
 
 
-// export const PRODUCTS : any = [
+export const PRODUCTS : any = [
 
-//     {
-//         id : 1,
-//         name: "Aloo Bhujia",
-//         price: 200,
-//         available: true,
-//         stock: 300,
-//         category: "Snacks",
-//         description: "Best snack"
-//     },
+    {
+        id : 1,
+        name: "Aloo Bhujia",
+        price: 200,
+        available: true,
+        stock: 300,
+        category: "Snacks",
+        description: "Best snack"
+    },
 
-//     {
-//         id : 2,
-//         name: "Nescafe Cold coffee",
-//         price: 40,
-//         available: true,
-//         stock: 300,
-//         category: "Beverages",
-//         description: "Best beverage"
-//     },
-
-
-//     {
-//         id : 3,
-//         name: "Classmate Notebook",
-//         price: 35,
-//         available: true,
-//         stock: 300,
-//         category: "Stationery",
-//         description: "300 page notebook single-line ruled"
-//     },
-
-//     {
-//         id : 4,
-//         name: "Bourbon",
-//         price: 20,
-//         available: true,
-//         stock: 300,
-//         category: "Snacks",
-//         description: "Chocolate cream biscuits"
-//     },
-
-//     {
-//         id : 5,
-//         name: "Sprite",
-//         price: 20,
-//         available: true,
-//         stock: 300,
-//         category: "Beverages",
-//         description: "Refreshing drink"
-//     },
+    {
+        id : 2,
+        name: "Nescafe Cold coffee",
+        price: 40,
+        available: true,
+        stock: 300,
+        category: "Beverages",
+        description: "Best beverage"
+    },
 
 
-//     {
-//         id : 6,
-//         name: "Parker pen",
-//         price: 150,
-//         available: true,
-//         stock: 300,
-//         category: "Stationery",
-//         description: "Top quality roller ball pen"
-//     },
+    {
+        id : 3,
+        name: "Classmate Notebook",
+        price: 35,
+        available: true,
+        stock: 300,
+        category: "Stationery",
+        description: "300 page notebook single-line ruled"
+    },
+
+    {
+        id : 4,
+        name: "Bourbon",
+        price: 20,
+        available: true,
+        stock: 300,
+        category: "Snacks",
+        description: "Chocolate cream biscuits"
+    },
+
+    {
+        id : 5,
+        name: "Sprite",
+        price: 20,
+        available: true,
+        stock: 300,
+        category: "Beverages",
+        description: "Refreshing drink"
+    },
 
 
-//     {
-//         id : 7,
-//         name: "Goodday biscuits",
-//         price: 10,
-//         available: true,
-//         stock: 300,
-//         category: "Snacks",
-//         description: "Butter cookies"
-//     },
-
-//     {
-//         id : 8,
-//         name: "Diet Coke",
-//         price: 40,
-//         available: true,
-//         stock: 300,
-//         category: "Beverages",
-//         description: "Best beverage"
-//     },
+    {
+        id : 6,
+        name: "Parker pen",
+        price: 150,
+        available: true,
+        stock: 300,
+        category: "Stationery",
+        description: "Top quality roller ball pen"
+    },
 
 
-//     {
-//         id : 9,
-//         name: "Trimax",
-//         price: 35,
-//         available: true,
-//         stock: 300,
-//         category: "Stationery",
-//         description: "300 page notebook single-line ruled"
-//     }
+    {
+        id : 7,
+        name: "Goodday biscuits",
+        price: 10,
+        available: true,
+        stock: 300,
+        category: "Snacks",
+        description: "Butter cookies"
+    },
+
+    {
+        id : 8,
+        name: "Diet Coke",
+        price: 40,
+        available: true,
+        stock: 300,
+        category: "Beverages",
+        description: "Best beverage"
+    },
+
+
+    {
+        id : 9,
+        name: "Trimax",
+        price: 35,
+        available: true,
+        stock: 300,
+        category: "Stationery",
+        description: "300 page notebook single-line ruled"
+    }
 
     
-// ]
+]

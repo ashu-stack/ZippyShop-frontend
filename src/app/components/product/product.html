@@ -7,7 +7,7 @@
     </div>
     <h3>{{product.description}}</h3>
     <app-counter class="counter"></app-counter>
-    <button>Add to Cart</button>
+    <button  (click) = "addToCart({{product.name}})">Add to Cart</button>
 
 
 </div>
