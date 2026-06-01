@@ -4,6 +4,10 @@ import { About } from './components/about/about';
 import { Contact } from './components/contact/contact';
 import { ProductList } from './components/product-list/product-list';
 import {Cart} from './components/cart/cart';
+import { Product } from './components/product/product';
+import { SearchedProduct } from './components/searched-product/searched-product';
+
+import { WelcomeUser } from './components/welcome-user/welcome-user';
 
 export const routes: Routes = [
     {
@@ -59,6 +63,15 @@ export const routes: Routes = [
 {
     path:'cart',
     component: Cart
+},
+{
+    path:'displayproduct/:name',
+    component: SearchedProduct
+},
+
+{
+    path: 'welcome',
+    component: WelcomeUser
 }
 
 
