@@ -1,0 +1,10 @@
+.welcome-text{
+    color: rgb(15, 65, 15);
+    background-color: whitesmoke;
+    
+}
+
+.failed-text{
+    color: red;
+    background-color: whitesmoke;
+}
