@@ -1,0 +1,9 @@
+
+<div>
+    @if(product$ | async; as product){
+    <app-product [product]="product"></app-product>    
+    }
+    @else{
+    <h1>Product not available :( </h1>
+    }
+</div>
