@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import{PRODUCTS} from '../../../db-data'
 import { RouterModule } from '@angular/router';
+import { Products } from '../../../product';
 
 @Component({
   selector: 'app-cart',
@@ -11,14 +12,23 @@ import { RouterModule } from '@angular/router';
 export class Cart implements OnInit {
 
   
-  products = PRODUCTS;
+  cart = history.state.cart;
 
+  products: Products[]=[]
   amount =0;
 
   ngOnInit(): void {
-    for(const product of this.products){
+
+    console.log(history.state.cart.productList)
+
+      this.products = this.cart?.productList || [];
+      for(const product of this.products){
       this.amount += product.price;
+    
     }
+    
+
+    // console.log(this.cart.products)
   }
 
   

@@ -1,16 +1,13 @@
 
 @for(product of products; track $index){ 
-    @if(product.price < 50){
+    
 <div class = "container">
         
         <img src="" alt="alt-img">
         <h2>{{product.name}}</h2>
         <h2>1</h2>
         <h2>{{product.price}}</h2>
-        
-    
 </div>
-    }
 }
  @empty{
         <h1>Cart is empty</h1>
