@@ -9,14 +9,21 @@
 
 
     <div> 
-     <button class = "search-btn"><i class="fas fa-search"></i></button>
-    <input type="text" placeholder="search" class="search-bar">
+     <button [routerLink] = "['/displayproduct', name]" (click) = "getProduct()" class = "search-btn"><i class="fas fa-search"></i></button>
+    <input #searchItem  (input)="setName(searchItem.value)" type="text" placeholder="search" class="search-bar">
    </div>
  
 
     <div class="nav-right">
         <button routerLink = "/login" type="button" ><i class="fa fa-fw fa-user"></i> login</button>
         <button routerLink = "/signup" type="button"><i class="fas fa-pen"></i> signup</button>
+        <button (click)="viewCart()" type="button"><i class="fas fa-shopping-cart"></i> View Cart</button>
     </div>
+
+    <!-- @if(product){
+        <app-product [product] = {{product}}></app-product>
+    } -->
+    
     
 </nav>
+
