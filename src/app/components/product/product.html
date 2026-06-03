@@ -6,8 +6,8 @@
         <h2>    Rs. {{product.price}}</h2>
     </div>
     <h3>{{product.description}}</h3>
-    <app-counter class="counter"></app-counter>
-    <button  (click) = "addToCart({{product.name}})">Add to Cart</button>
-
+    <!-- <app-counter class="counter"></app-counter> -->
+    <button (click)="addToCart()" >Add to Cart</button>
+    <button (click)="removeItem()" >Remove from Cart</button>
 
 </div>
